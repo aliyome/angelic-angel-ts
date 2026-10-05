@@ -1,0 +1,25 @@
+[twitter]
+auth_token = "test_auth_token_value_123456789012345"
+ct0 = "test_ct0_value_12345678901234567890"
+
+[registration]
+endpoint = "https://updates.push.services.mozilla.com/wpush/v2/test_endpoint_token"
+
+[registration.autopush]
+uaid = "test-uaid-uuid-v4-string"
+channel_id = "test-channel-id-uuid-v4-string"
+
+[registration.keys]
+public_key = [
+  4, 94, 104, 18, 141, 49, 13, 74, 96, 202, 82, 131, 78, 91, 29, 242, 150, 102, 197, 0, 53, 149,
+  230, 8, 54, 38, 62, 173, 43, 28, 89, 130, 191, 222, 213, 128, 147, 62, 21, 49, 187, 95, 212,
+  194, 196, 253, 140, 157, 234, 34, 8, 234, 143, 158, 221, 15, 83, 8, 222, 111, 100, 204, 213,
+  48, 75
+]
+private_key = [
+  1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16,
+  17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32
+]
+auth_secret = [
+  10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160
+]
